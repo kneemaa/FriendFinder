@@ -1,0 +1,47 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Friend Finder</title>
+	<script
+	  src="http://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script type="text/javascript" src="./app.js"></script>
+	<link rel="stylesheet" href="./style.css"></link>
+</head>
+<body>
+	<h1 class="headerLine">It's time to find your friend!</h1>
+	{{{body}}}
+	<div id="friend-modal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+				  <h2 id="friend-title">Your New Friend!</h2>
+				</div>
+				<div class="modal-body">
+					<h2 id="friend-fullName"></h2>
+					<img id="friend-image" src="" alt="">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		
+		<p class="footer-text">
+			<a class="footer-text" href="/api/friends" target="_blank">Friends API</a>
+			<a class="footer-text" href="https://github.com/smalldoorman" target="_blank">Github</a>
+			<a class="footer-text" href="https://www.linkedin.com/in/nemadarban/" target="_blank">LinkedIn</a>
+			<span> Nema Darban </span>
+		</p>
+		
+	</div>
+</body>
+</html>

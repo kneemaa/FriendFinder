@@ -1,0 +1,101 @@
+<form>
+	<div class="question">
+		<h4>What is your name</h4>
+		<input id="name" type="text" name="name">
+	</div>
+	<div class="question">
+		<h4>URL of your photo</h4>
+		<input id="photo" type="text" name="photo">
+	</div>
+	<div class="question">
+		<h4>Coffee is better than tea.</h4>
+		<p>1 - Strongly Disagree | 10 - Strongly Agree</p>
+		<select class="dropdown" id="q1">
+			{{#each options}}
+				<option value="{{this}}">{{this}}</option>
+			{{/each}}
+		</select>
+	</div>
+	<div class="question">
+		<h4>Golf is a sport.</h4>
+		<p>1 - Strongly Disagree | 10 - Strongly Agree</p>
+		<select class="dropdown" id="q2">
+			{{#each options}}
+				<option value="{{this}}">{{this}}</option>
+			{{/each}}
+		</select>
+	</div>
+	<div class="question">
+		<h4>"Gif" is pronounced with a hard G.</h4>
+		<p>1 - Strongly Disagree | 10 - Strongly Agree</p>
+		<select class="dropdown" id="q3">
+			{{#each options}}
+				<option value="{{this}}">{{this}}</option>
+			{{/each}}
+		</select>
+	</div>
+	<div class="question">
+		<h4>iPhone is better than Android</h4>
+		<p>1 - Strongly Disagree | 10 - Strongly Agree</p>
+		<select class="dropdown" id="q4">
+			{{#each options}}
+				<option value="{{this}}">{{this}}</option>
+			{{/each}}
+		</select>
+	</div>
+	<div class="question">
+		<h4>How well done do you like your steak</h4>
+		<p>1 - Rare | 10 - Well Done</p>
+		<select class="dropdown" id="q5">
+			{{#each options}}
+				<option value="{{this}}">{{this}}</option>
+			{{/each}}
+		</select>
+	</div>
+	<div class="question">
+		<h4>The earth is flat.</h4>
+		<p>1 - Strongly Disagree | 10 - Strongly Agree</p>
+		<select class="dropdown" id="q6">
+			{{#each options}}
+				<option value="{{this}}">{{this}}</option>
+			{{/each}}
+		</select>
+	</div>
+	<div class="question">
+		<h4>Pancakes are better than waffles</h4>
+		<p>1 - Strongly Disagree | 10 - Strongly Agree</p>
+		<select class="dropdown" id="q7">
+			{{#each options}}
+				<option value="{{this}}">{{this}}</option>
+			{{/each}}
+		</select>
+	</div>
+	<div class="question">
+		<h4>Your git commit messages should be in all caps</h4>
+		<p>1 - Strongly Disagree | 10 - Strongly Agree</p>
+		<select class="dropdown" id="q8">
+			{{#each options}}
+				<option value="{{this}}">{{this}}</option>
+			{{/each}}
+		</select>
+	</div>
+	<div class="question">
+		<h4>PC Gaming is better than Console Gaming</h4>
+		<p>1 - Strongly Disagree | 10 - Strongly Agree</p>
+		<select class="dropdown" id="q9">
+			{{#each options}}
+				<option value="{{this}}">{{this}}</option>
+			{{/each}}
+		</select>
+	</div>
+	<div class="question">
+		<h4>Bitcoin is a thing</h4>
+		<p>1 - Strongly Disagree | 10 - Strongly Agree</p>
+		<select class="dropdown" id="q10">
+			{{#each options}}
+				<option value="{{this}}">{{this}}</option>
+			{{/each}}
+		</select>
+	</div>
+	<button class="btn btn-danger" id="submit" type="submit">Submit</button>
+</form>

@@ -1,0 +1,60 @@
+form {
+	width: 400px;
+	margin: 0 auto;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.headerLine {
+	display: flex;
+	justify-content: center;
+}
+.question {
+	width: 100%;
+    border-radius: 15px;
+    padding: 7px 18px;
+    margin: 4 auto;
+}
+
+.question:nth-child(odd){
+	background-color: #bfbfbf;
+}
+
+.question:nth-child(even){
+	background-color: #e6e6e6;
+}
+
+.btn {
+	width: 100%;
+}
+
+.dropdown, input {
+	width: 100%;
+}
+
+#friend-image {
+	width: 100%;
+}
+
+.friend-title, #friend-fullName {
+	display: flex;
+    justify-content: center;
+}
+
+.footer {
+	display: flex:
+	justify-content: center;
+	margin: 0 auto;
+	height: 40px;
+	background-color: #e6e6e6;
+}
+
+.footer-text {
+	display: flex;
+	text-align: center;
+	padding: 0 10px;
+    justify-content: center;
+}
